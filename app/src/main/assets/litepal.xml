@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<litepal>
+    <dbname value="DataBase"></dbname>
+<!--    数据库名-->
+    <version value="2"></version>
+<!--    版本号-->
+    <logging>
+        <log name="LitePal" level="DEBUG" />
+    </logging>
+<!--    日志功能-->
+    <list>
+        <mapping class="au.edu.federation.itech3107.fedunistudentattendance30395744.bean.Teacher"></mapping>
+        <mapping class="au.edu.federation.itech3107.fedunistudentattendance30395744.bean.StudentCourse"></mapping>
+        <mapping class="au.edu.federation.itech3107.fedunistudentattendance30395744.bean.Course"></mapping>
+        <mapping class="au.edu.federation.itech3107.fedunistudentattendance30395744.bean.Kaoqin"></mapping>
+
+<!--        必须使用完整类名-->
+    </list>
+<!--    指定所有映射模型-->
+</litepal>
